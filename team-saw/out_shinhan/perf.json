@@ -1,0 +1,37 @@
+{
+  "env": {
+    "hostname": "Yejinui-MacBookPro.local",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "python": "3.11.9",
+    "arch": "arm64",
+    "cpu_count_logical": 12
+  },
+  "input": {
+    "jsonl": "out_shinhan/articles.jsonl",
+    "max_articles": 10
+  },
+  "model": "mistral:7b-instruct-q4_0",
+  "timing": {
+    "total_s": 16.854,
+    "load_s": 0.0,
+    "llm_s": 16.854
+  },
+  "cpu": {
+    "user_s": 0.02,
+    "system_s": 0.013,
+    "total_s": 0.033,
+    "usage_est_percent": 0.2
+  },
+  "memory": {
+    "rss_end_mb": 8.78,
+    "rss_start_bytes": 14499840,
+    "rss_end_bytes": 9207808,
+    "rss_peak_like_bytes": 14499840
+  },
+  "throughput": {
+    "prompt_chars": 1062,
+    "output_chars": 434,
+    "prompt_chars_per_s": 63.01,
+    "output_chars_per_s": 25.75
+  }
+}
