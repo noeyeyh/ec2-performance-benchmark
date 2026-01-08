@@ -31,7 +31,7 @@ SYSTEM_PROMPT = """\
 # ====== CONFIG ======
 INPUT_JSONL = "out_shinhan/articles.jsonl"
 OUTPUT_JSON = "out_shinhan/summary.json"
-MODEL_NAME = "mistral:7b"
+MODEL_NAME = "mistral:7b-instruct-q4_0"
 MAX_ARTICLES = 10
 # ====================
 
