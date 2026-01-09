@@ -1,0 +1,8 @@
+set,instance,total_s,llm_s,cpu_total_s,rss_mb,prompt_cps,output_cps
+R5-scale,r5.4xlarge,202.182,202.182,0.090,12.38,5.25,3.91
+R5-scale,r5.8xlarge,69.578,69.578,0.030,12.25,15.26,5.13
+R5-scale,r5.16xlarge,49.829,49.829,0.020,11.50,21.31,4.29
+
+16xlarge,r5.16xlarge,49.829,49.829,0.020,11.50,21.31,4.29
+16xlarge,m5.16xlarge,37.753,37.753,0.030,12.00,28.13,5.54
+16xlarge,g5.16xlarge,41.351,41.351,0.030,11.50,25.68,5.08
